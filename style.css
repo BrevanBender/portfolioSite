@@ -1,10 +1,25 @@
-
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+}
+#pages{
+    display: flex;
+    justify-content: space-evenly;
+}
 #project-cont {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
+#headshot{
+    height: 15vh;
+    width: auto;
+    border-radius: 50%;
+}
+.links{
+    margin: auto 1.3vw;
+}
 #project-cont > div{
     width: 50%;
 }
