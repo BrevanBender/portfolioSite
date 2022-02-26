@@ -1,8 +1,30 @@
+html{
+    background-color: black;
+}
 header{
     display: flex;
     justify-content: space-evenly;
-    height: 10%;
+    height: 5%;
+    position: fixed;
+    margin-left: 50%;
+    left: -30%;
+
 }
+
+button {
+    display: inline-block;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 1.5s;
+    background-color: #5e03fc;
+}
+button:hover{
+    background-color: white;
+    color: #5e03fc;
+}
+
 #pages{
     display: flex;
     justify-content: space-evenly;
@@ -27,7 +49,7 @@ header{
 }
 .carousel-projects {
 	width: 100%;
-	background: gray;
+	background: black;
 	padding: 10px;	
 }
 .carousel-projects div {
@@ -36,7 +58,7 @@ header{
 	display: none;
 }
 .carousel-button {
-	background: darkslategray;
+	background: #5e03fc;
 	color: white;
 	width: 5%;
 	text-align: center;
