@@ -1,84 +1,40 @@
 html{
     background-color: black;
 }
+#scrolling{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+#to-rotate{
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.slide{
+    width: 100vw;
+    height: 85vw;
+}
 header{
     display: flex;
-    justify-content: space-evenly;
-    height: 5%;
-    position: fixed;
-    margin-left: 50%;
-    left: -30%;
-
+    flex-direction: column;
+    align-items: center;
 }
-
-button {
-    display: inline-block;
-    border-radius: 10rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1rem;
-    transition: all 1.5s;
-    background-color: #5e03fc;
-}
-button:hover{
-    background-color: white;
-    color: #5e03fc;
-}
-
-#pages{
+header ul{
     display: flex;
     justify-content: space-evenly;
-}
-#project-cont {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    height: 100%;
-}
-.links{
-    margin: auto 1.3vw;
-}
-#project-cont > div{
     width: 50%;
+    }
+#greeting{
+    color: white;
+    width: 100%;
 }
-#carousel-cont {
-	width: 100vw;
-    height: 90vh;
-	display: flex;
-    flex-direction: row;
-}
-.carousel-projects {
-	width: 100%;
-	background: black;
-	padding: 10px;	
-}
-.carousel-projects div {
-	width: 100%;
-	border-radius: 10px;
-	display: none;
-}
-.carousel-button {
-	background: #5e03fc;
-	color: white;
-	width: 5%;
-	text-align: center;
-    border: 3px white;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-.carousel-button:hover {
-	cursor: pointer;
-	background: #fa8d8e;
-	box-shadow: 1px 1px #f2cd99;
-	color: white;
-}
-
-
-.carousel-projects div{
-    display: none;
-}
-.carousel-projects div:first-of-type{
-    display: block;
-    
+#about-me{
+    color: white;
 }
