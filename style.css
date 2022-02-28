@@ -25,6 +25,7 @@ html{
 .slide{
     width: 100vw;
     height: 85vw;
+    color: white;
 }
 header{
     display: flex;
@@ -36,10 +37,4 @@ header ul{
     justify-content: space-evenly;
     width: 50%;
     }
-#greeting{
-    color: white;
-    width: 100%;
-}
-#about-me{
-    color: white;
-}
+
