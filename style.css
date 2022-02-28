@@ -9,11 +9,16 @@ html{
     overflow-y: scroll;
     overflow-x: hidden;
     position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 #to-rotate{
     display: flex;
     flex-direction: row;
-    width: 400vw;
+    width: 300vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
