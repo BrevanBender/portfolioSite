@@ -2,42 +2,42 @@ const myProjects = [
     { name: "place holder 1",
     id: "proj1",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
+    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 2",
     id: "proj2",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
+    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 3",
     id: "proj3",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
+    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
 
     { name: "place holder 4",
     id: "proj4",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
+    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 5",
     id: "proj5",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
+    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 6",
     id: "proj6",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
+    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]}
 ]
@@ -86,7 +86,16 @@ for(let closer of modalClose){
         console.log(`#${closer.id}ont`)
     })
 }
-// $('.projSect').hover(function() {
-//     $(this).toggleClass('show-more')
+
+// const rendered = $('.projSect')
+// console.log(rendered[0].children[3].children)
+
+// $("#filterButton").submit(function(e){
+//     e.preventDefault();
+//     console.log("clicked")
+//     const desiredTech = $("#filterTech").val()
+//     $(`span:contains("${desiredTech}")`).parent().css("display", "none")
+//     return false
 // })
+
 
