@@ -6,10 +6,10 @@ body{
     height: 100%;
     text-align: center;
 }
-#project-container{
+#projects{
     display: flex;
     flex-wrap: wrap;
-
+    margin: auto;
 }
 
 h1{

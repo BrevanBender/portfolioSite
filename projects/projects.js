@@ -9,30 +9,35 @@ const myProjects = [
     { name: "place holder 2",
     id: "proj2",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
+    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 3",
     id: "proj3",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
+    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
 
     { name: "place holder 4",
     id: "proj4",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
+    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 5",
     id: "proj5",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
+    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]},
     
     { name: "place holder 6",
     id: "proj6",
     technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
+    backgroundAddress: "https://inteng-storage.s3.amazonaws.com/img/iea/nR6bkXZxwo/sizes/software-engineering-skills_resize_md.jpg",
     about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
     links: ["the url of app", "the github repo"]}
 ]
