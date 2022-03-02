@@ -25,7 +25,19 @@
         <img id="headshot" src="https://media-exp1.licdn.com/dms/image/C4E03AQFD0TmwiExnBQ/profile-displayphoto-shrink_200_200/0/1638375276649?e=1646265600&v=beta&t=7QZLfo0iU7UwpY_igMdiwx_wgqDIeSw9_ZGgUzxnGes">
         <h1>Brevan Bender</h1>
         <h3>Software Engineer, Web Developer, Outdoorsman</h3>
+        <button id="emailMe"></button>
+        <div id="modalContainer">
+            <form action="https://formsubmit.co/bendercoding@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Portfolio Message">
+                <input type="email" name="email" placeholder="Email Adress" class="formcontents" required>
+                <input type="text" name="name" placeholder="name" class="formcontents" required>
+                <input type="text" name="message" placeholder="Message Contents">
+                <button type="submit" class="formcontents">Send</button>
+           </form>
+                      
+        </div>
     </main>
-    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
 </body>
   

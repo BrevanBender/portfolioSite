@@ -68,6 +68,27 @@ ul li{
 ul li:hover{
     background-color: purple;
 }
+#modalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    border-radius: 10px;
+}
+.formContents{
+    margin: 3vh auto;
+}
+textarea{
+    width: 90%;
+}
 @media (min-width: 760px){
     header{
         font-weight: bolder;
