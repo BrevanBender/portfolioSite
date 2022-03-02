@@ -52,8 +52,9 @@ ul li:hover{
     height: fit-content;
 }
 .carouselImg{
-    height: 80%;
+    height: 50%;
     width: auto;
+    max-width: 80%;
     margin: auto;
 }
 .links{
@@ -103,4 +104,9 @@ ul li:hover{
 .carousel-projects div:first-of-type{
     display: flex;
     
+}
+@media (min-width: 760px) {
+    .carouselImg{
+        height: 90%;
+    }
 }
