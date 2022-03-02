@@ -45,7 +45,9 @@ header{
     left: 0;
     position: fixed;
     display: flex;
-    background-color: lightpink;
+    background: linear-gradient(-45deg, #dfbbb1, #f56476, #e43f6f, #be3e82, #5e4352);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
 }
 nav{
     display: flex;
@@ -76,18 +78,50 @@ ul li:hover{
     background: rgba(0, 0, 0, 0.7);
     width: 100vw;
     height: 100vh;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+#modalContainer h3{
+    margin-top: 20vh;
 }
 form{
     display: flex;
     flex-direction: column;
     width: 80vw;
     border-radius: 10px;
+    background: linear-gradient(-45deg, #dfbbb1, #f56476, #e43f6f, #be3e82, #5e4352);
+    background-size: 500% 500%;
+    margin: 5vh auto;
+    animation: gradient 5s ease infinite;
+    position: relative;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
 }
 .formContents{
     margin: 3vh auto;
 }
 textarea{
     width: 90%;
+}
+#modalContainer{
+    top: 0;
+    left: 0;
+}
+#closeThis{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 @media (min-width: 760px){
     header{
