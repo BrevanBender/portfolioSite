@@ -45,8 +45,8 @@ const myProjects = [
 //loop and append onto container
 
 for(let project of myProjects){
-    console.log(project.name)
-    let $projSect = $(`<div class="projSect" id="${project.id}"><div>`)
+    let randoNum = Math.floor(Math.random()*10)
+    let $projSect = $(`<div class="projSect" data-speed="${randoNum}" id="${project.id}"><div>`)
     let $modalProj = $(`<div class="modals" id="${project.id}modal"></div`)
     let $projImg = $(`<img src="${project.backgroundAddress}"></img`)
     //create container
@@ -86,7 +86,19 @@ for(let closer of modalClose){
         console.log(`#${closer.id}ont`)
     })
 }
+function shiftContent(e){
+    this.querySelectorAll('.projSect').forEach(projSect => {
+        const shiftSpeed = projSect.getAttribute('data-speed')
 
+        const x = (window.innerWidth - e.pageX*shiftSpeed)/100
+        const y = (window.innerHeight - e.pageY*shiftSpeed)/100
+        projSect.style.transform = `translateX(${x}px) translateY(${y}px)`
+    })
+}
+document.addEventListener("mousemove",shiftContent)
+//
+//ghosts of ideas past
+//
 // const rendered = $('.projSect')
 // console.log(rendered[0].children[3].children)
 

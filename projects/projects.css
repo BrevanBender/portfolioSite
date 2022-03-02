@@ -41,19 +41,18 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
 h3{
     background-color: rgba(11, 12, 12, 0.7);
 }
 .techHolder{
     background-color: rgba(11, 12, 12, 0.7);
 }
-h1{
-    box-shadow: #5EB8B8;
-}
 .projSect .projName{
     position: relative;
     z-index: 1;
 }
+
 .projSect{
     position: relative;
     z-index: 1;
@@ -64,6 +63,7 @@ h1{
     background-position: center;
     background-size: cover;
 }
+
 .projSect .projName::after{
     content: "";
     position: absolute;
@@ -76,7 +76,6 @@ h1{
     z-index: -1;
     max-width: 100%;
 }
-
 
 .projSect:hover .projName::after{
     width: 25vw;
@@ -126,5 +125,55 @@ h1{
     }
     .projSect{
         height: 25vh;
+    }
+    #proj1{
+        top: 13vh;
+        left: 15vw;
+    }
+    #proj2{
+        top: 22vh;
+        left: 40vw;
+    }
+    #proj3{
+        top: 40vh;
+        left: 20vh;
+    }
+    #proj4{
+        top: 60vh;
+        left: 80vw;
+    }
+    #proj5{
+        top: 75vh;
+        left: 55vw;
+    }
+    #proj6{
+        top: 20vh;
+        left: 75vw;
+    }
+    #projects{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #onlyText{
+        position: relative;
+        color: white;
+    }
+    .projSect .projName{
+        position: relative;
+        z-index: 1;
+        font-size: 4em;
+    }
+    .projSect{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4vw;
+        height: 4vh;
+        object-fit: cover;
     }
 }
