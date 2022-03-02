@@ -35,10 +35,12 @@ input {
     animation: pulse-animation 7s infinite;
     }
 @keyframes pulse-animation {
+    0%{box-shadow: 0 0 0 5px #8A7CEF}
     12.5%{box-shadow: 0 0 0 5px #1F3EDE}
     37.5%{box-shadow: 0 0 0 5px #7646C5}
     62.5%{box-shadow: 0 0 0 5px #BF1FDE}    
     87.5%{box-shadow: 0 0 0 5px#F5B9FF}
+    100%{box-shadow: 0 0 0 5px #8A7CEF;}
     }
 header{
     top: 0;
