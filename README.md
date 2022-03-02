@@ -8,7 +8,7 @@ Each page rundown :
 
     About Me: ugly page stil need to style that 11:57. A couple simple text elements and a carousel identical to the one I had used at earlier commits except is shows pictures of mine that I like. This is done using the nth of type css selector and event listeners on buttons to change order.
 
-    projects: I started with an object containing data on projects. I then used jqeury to render them onto a container and looped through giving them each a modal function similar to the email on main page. this is all placeholders I want to style this page more. I am thinking of trying to add a parallax event so this page doesn't look so basic.
+    projects: I started with an object containing data on projects. I then used jqeury to render them onto a container and looped through giving them each a modal function similar to the email on main page. this is all placeholders I want to style this page more. I added a parallax effect using data-speed to assign numbers to html elements than translate the elements at there respective speed giving the page depth
 
     resume: I pretty much treated this as a flexbox lab with tons of placeholders. I feel bad doing this but I need some serious help with my resume
 

@@ -45,7 +45,7 @@ const myProjects = [
 //loop and append onto container
 
 for(let project of myProjects){
-    let randoNum = Math.floor(Math.random()*10)
+    let randoNum = Math.floor((Math.random()-.5)*10)
     let $projSect = $(`<div class="projSect" data-speed="${randoNum}" id="${project.id}"><div>`)
     let $modalProj = $(`<div class="modals" id="${project.id}modal"></div`)
     let $projImg = $(`<img src="${project.backgroundAddress}"></img`)
