@@ -10,7 +10,7 @@ $('.next').on('click', ()=>{
         CurrentProjIndex = 0
     }
     
-    $('.carousel-projects').children().eq(CurrentProjIndex).css('display', 'block')
+    $('.carousel-projects').children().eq(CurrentProjIndex).css('display', 'flex')
 })
 
 $('.previous').on('click', ()=>{
@@ -21,5 +21,5 @@ $('.previous').on('click', ()=>{
     } else{
         CurrentProjIndex = numOfProj
     }
-    $('.carousel-projects').children().eq(CurrentProjIndex).css('display', 'block')
+    $('.carousel-projects').children().eq(CurrentProjIndex).css('display', 'flex')
 })
