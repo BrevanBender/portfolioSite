@@ -68,6 +68,9 @@ ul li{
 ul li:hover{
     background-color: purple;
 }
-@media (min-width: 760){
-
+@media (min-width: 760px){
+    header{
+        font-weight: bolder;
+        font-size: larger;
+    }
 }

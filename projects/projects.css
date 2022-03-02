@@ -2,6 +2,34 @@ html{
     background-color: black;
     color: white;
 }
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    background-color: lightpink;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: default 3vw;
+    padding: 0%;
+}
+ul li{
+    margin: auto 3vw;
+    line-height: 15px;
+    font-size: smaller;
+}
+ul li:hover{
+    background-color: purple;
+}
 body{
     height: 100%;
     text-align: center;
