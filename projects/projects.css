@@ -35,6 +35,7 @@ body{
     text-align: center;
 }
 #projects{
+    top: 5vh;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -48,9 +49,10 @@ h3{
 .techHolder{
     background-color: rgba(11, 12, 12, 0.7);
 }
-.projSect .projName{
+.projName{
     position: relative;
     z-index: 1;
+    font-size: 2px;
 }
 
 .projSect{
@@ -166,7 +168,7 @@ h3{
     .projSect .projName{
         position: relative;
         z-index: 1;
-        font-size: 4em;
+        font-size: 2em;
     }
     .projSect{
         position: absolute;
