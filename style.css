@@ -1,0 +1,59 @@
+body {
+      height: 100vh;
+      width: 100vw;
+      text-align: center;
+      background: url("https://wallup.net/wp-content/uploads/2015/12/201341-volcano-Oregon-sunset-forest-snow-mountain-trees-snowy_peak-nature-winter-landscape.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+      overflow: hidden;
+    }
+p {
+      font-size: 22px;
+    }
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    
+#headshot{
+     border-radius: 50%;
+     border: 3px solid black;
+    animation: pulse-animation 7s infinite;
+    }
+@keyframes pulse-animation {
+      0%{box-shadow: 0 0 0 5px #FFE5B4}
+     20%{box-shadow: 0 0 0 5px #1F3EDE}
+     40%{box-shadow: 0 0 0 5px #BF1FDE}    
+     100%{box-shadow: 0 0 0 5px #FFE5B4}
+     }
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    background-color: lightpink;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+ul li{
+    margin: auto 3vw;
+    line-height: 15px;
+}
+ul li:hover{
+    background-color: purple;
+}
