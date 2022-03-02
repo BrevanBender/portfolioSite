@@ -13,7 +13,21 @@ div{
     left: 0;
     position: fixed;
     display: flex;
-    background-color: lightpink;
+    background: linear-gradient(-45deg, #dfbbb1, #f56476, #e43f6f, #be3e82, #5e4352);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
 }
 nav{
     display: flex;
@@ -61,5 +75,10 @@ ul li:hover{
     #seperate{
         width: 60vw;
     }
+    #linkbar{
+        font-weight: bolder;
+        font-size: larger;
+    }
+
 }
     
