@@ -10,6 +10,7 @@ header{
     background: linear-gradient(-45deg, #dfbbb1, #f56476, #e43f6f, #be3e82, #5e4352);
     background-size: 500% 500%;
     animation: gradient 10s ease infinite;
+    z-index: 50;
 }
 nav{
     display: flex;
