@@ -1,5 +1,5 @@
 let CurrentProjIndex = 0
-let numOfProj = $('.carousel-projects').children.length + 1
+let numOfProj = $('.carousel-projects').children().length - 1
 
 $('.next').on('click', ()=>{
     $('.carousel-projects').children().eq(CurrentProjIndex).css('display', 'none')
