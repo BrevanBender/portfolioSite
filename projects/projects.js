@@ -90,8 +90,8 @@ function shiftContent(e){
     this.querySelectorAll('.projSect').forEach(projSect => {
         const shiftSpeed = projSect.getAttribute('data-speed')
 
-        const x = (window.innerWidth - e.pageX*shiftSpeed)/100
-        const y = (window.innerHeight - e.pageY*shiftSpeed)/100
+        const x = (window.innerWidth - e.pageX*shiftSpeed)/80
+        const y = (window.innerHeight - e.pageY*shiftSpeed)/80
         projSect.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
 }
