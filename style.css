@@ -31,7 +31,7 @@ input {
     
 #headshot{
      border-radius: 50%;
-     width: 20vw;
+     width: 15vw;
      border: 3px solid black;
     animation: pulse-animation 7s infinite;
     }

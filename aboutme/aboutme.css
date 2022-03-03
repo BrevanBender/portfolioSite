@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
     transition: transform 1s;
 }
 #mainSect{
@@ -47,8 +47,9 @@ ul li:hover{
     align-items: center;
     align-content: center;
 }
-
-
+#waterfall{
+    width: 45vw;
+}
 #project-cont {
 	display: flex;
 	flex-direction: column;
@@ -116,5 +117,8 @@ ul li:hover{
     header{
         font-weight: bolder;
         font-size: larger;
+    }
+    #mainSect{
+        display: flex;
     }
 }
