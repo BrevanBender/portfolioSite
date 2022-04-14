@@ -4,41 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-      <nav>
-        <ul id="localLink">
-            <li><a href="resume/resume.html">Resume</a></li>
-            <li><a href="projects/projects.html">Projects</a></li>
-            <li><a href="aboutme/aboutme.html">About Me</a></li>
-        </ul>
-        <ul id="socialLink">
-            <li><a href="https://www.linkedin.com/in/brevan-bender/">LinkedIn</a></li>
-            <li><a href="https://github.com/BrevanBender">Github</a></li>
-        </ul>
-      </nav>
+        <div id="navigation">
+
+            <div>
+                <ul id="desktopNav">
+                        <li>About Me</li>
+                        <li>Skills</li>
+                        <li id="toproj">Projects</li>
+                </ul>
+            </div>
+            
+            <div id="arrowHover">
+                >
+            </div>
     </header>
     <main>
-        <img id="headshot" src="./assets/brevanHeadshot.jpg">
-        <h1>Brevan Bender</h1>
-        <h3>Software Engineer, Web Developer, Outdoorsman</h3>
-        <button id="emailMe">Email Me!</button>
+        <div id="intro">
+            <h1>Brevan Bender</h1>
+            <h3 id="taglines">Software Engineer, Web Developer, Outdoorsman</h3>
+            <img src="./assets/shuffle-removebg-preview.png" alt="" id="shuffle">
+            
+        </div>
+        <div id="blurCover">
+
+        </div>
+        <div id="modalContainer">
+            <h3>Please Fill Out The Form Below</h3>
+            <form action="https://formsubmit.co/bendercoding@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Portfolio Message">
+                <input type="email" name="email" placeholder="Email Adress" class="formContents" required>
+                <input type="text" name="name" placeholder="Name" class="formContents" required>
+                <input type="text" name="message" placeholder="Message Content" class="formContents">
+                <button type="submit" class="formContents">Send</button>
+                <button id="closeThis">X</button>        
+        </form>
+
+        </div>
+
+        <div id="mainSect">
+            <div id="mainText">
+                <h3>
+                    About Me
+                </h3>
+                <p>
+                    After my college career was derailed by the pandemic, I decided to give coding a try. The more I learned, the more I loved it. After countless hours of online tutorials and passion projects, I decided it was in my best interest to seek more structure in my learning. Enter General Assembly. I started my GA experience February 2022 and, despite ups and downs, haven't regretted it a single day. Beyond the digital world, I love the outdoors. I'm an avid hiker and mediocre skiier. While outside I also like to fly my drone and record from the sky's perspective.
+                </p>
+            </div>
+
+            <div id="contactandPhoto">
+                <img src="./assets/about-me2.jpg" alt="" id="waterfallpic">
+                <div id="buttons">
+                    <img src="./assets/emailIcon-removebg-preview.png" alt="" id="emailMe">
+                    <img src="./assets/githubicon-removebg-preview.png" alt="" href="">
+                    <img src="./assets/linkedinicon.png" alt="" href="">
+                </div>
+            </div>
+            <img src="./assets/tree screenshot.png" alt="" id="treeLine">
+        </div>
+
+        <section id="projects" class="slide">
+            <h1 id="onlyText">My Creations</h1>
+            <div id="project-container">
+            </div>
+            <div class="modalCont" id="proj1Cont">
+                            
+            </div>
+            <div class="modalCont" id="proj2Cont">
+                            
+            </div>
+            <div class="modalCont" id="proj3Cont">
+                            
+            </div>
+        </section>
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="app.js"></script>
     </main>
-    <div id="modalContainer">
-        <h3>Please Fill Out The Form Below</h3>
-        <form action="https://formsubmit.co/bendercoding@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="Portfolio Message">
-            <input type="email" name="email" placeholder="Email Adress" class="formContents" required>
-            <input type="text" name="name" placeholder="Name" class="formContents" required>
-            <input type="text" name="message" placeholder="Message Content" class="formContents">
-            <button type="submit" class="formContents">Send</button>
-            <button id="closeThis">X</button>        
-       </form>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
 </body>
   
