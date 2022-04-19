@@ -9,10 +9,10 @@ const myProjects = [
     
     { name: "GeoGram",
     id: "proj1",
-    technologies: ["CSS", "HTML", "JavaScript", "JQuery"],
-    backgroundAddress: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    about: "I used these technologies to make this app that does this. With this project I really focused on using blank to blank",
-    links: ["the url of app", "the github repo"]},
+    technologies: ["CSS", "Mongoose", "Express", "React"],
+    backgroundAddress: "./assets/geog.png",
+    about: "This MERN Stack app has all the CRUD operations and is loaded with client interaction. Users signup, signin, like, and comment on posts, follow others, and of course create, update, and delete their own posts. There are style tabs to filter through what kind of post you want to see.",
+    links: ["https://geogramclient.herokuapp.com/", "https://github.com/BrevanBender/proj3frontend"]},
     
     { name: "Event Finder",
     id: "proj2",
@@ -98,7 +98,9 @@ function scrollToAnchor(aid){
 $('#toproj').click(function(){
     scrollToAnchor('projects')
 })
-
+$('#toabout').click(function(){
+    scrollToAnchor('mainText')
+})
 $('#arrowHover').hover(()=>{
     $('#navigation').css('left', 0)
     $('#arrowHover').css('opacity', 0)

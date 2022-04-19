@@ -387,14 +387,22 @@ textarea{
         align-items: center;
         
     }
+    .hideme{
+        margin-top: -6vh;
+    }
     #onlyText{
         position: relative;
+        color: white;
+    }
+    .projSect .projName:first{
         color: white;
     }
     .projSect .projName{
         position: relative;
         z-index: 1;
         font-size: 2em;
+        color: black;
+        font-weight: 700;
     }
     .projSect{
         top: 0;
@@ -423,6 +431,30 @@ textarea{
     .projSect:nth-of-type(even):hover .projName::after{
         width: 25vw;
         left: 0%;
+    }
+    #skills{
+        display: flex;
+        color: #1e7a45;
+        margin-top: 15vh;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    #skills ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #skills div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buttonHolder{
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        bottom: 0%;
     }
     .projSect:nth-of-type(odd):after{
         content: "";
